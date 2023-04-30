@@ -20,7 +20,7 @@ nav {
 .home{
   display: flex;
   justify-content: center;
-  background-image: url("./assets/image-outside-van.png");
+  background-image: url("/assets/image-outside-van.png");
   height: 75vh;
   width: 100%;
   background-size: cover;
