@@ -95,8 +95,14 @@ nav > h1{
   font-weight: 900;
 }
 
-nav > div > a{
+.nav-link{
   text-decoration: none;
   padding: 5px;
   color: #4D4D4D;
+}
+
+.vanlife{
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
 }

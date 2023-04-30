@@ -1,16 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom"
 
 export default function Home(){
     return (
         <div>
-            <nav>
-                <h1>#VANLIFE</h1>
-                <div>
-                    <Link to="/">Home</Link>
-                    <Link to="/about">About</Link>
-                </div>
-            </nav>
             <div className= "home">
                 <div className="home-content">
                     <h1>You got the travel plans, we got the travel vans.</h1>
