@@ -18,15 +18,24 @@ export default function Vans(){
         .then(data => setVans(data.vans))
     },[])
 
-    console.log(vans)
     let vansElement = vans.map(van => {
         return ( 
             <div key={van.id}>
-                
+                <img src={van.imageUrl} className="van-img"/>
+                <div className="van-info">
+                    <h2 className="van-name">{van.name}</h2>
+                    <div className="van-pricing">
+                        <span className="van-price">${van.price}</span>
+                        <span className="subtext">/day</span>
+                    </div>
+                </div>
+                <p className={`van-type-button ${van.type}`}>{van.type}</p>
             </div>
         )
     })
     return (
-        <h1>hi</h1>
+        <div className="vans-container">
+            {vansElement}
+        </div>
     )
 }

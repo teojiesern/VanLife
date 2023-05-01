@@ -110,3 +110,70 @@ nav > h1{
   font-size: 30px;
   color: black;
 }
+
+.vans-container{
+  padding: 5% 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 1rem;
+  background-color: #FFF7ED;
+}
+
+.van-img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.van-info{
+  display: flex;
+  margin-top: 5px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.van-name{
+  font-size: 15px;
+  margin: 0;
+}
+
+.van-price{
+  display: block;
+  font-weight: bold;
+  font-size: 15px;
+  color: #161616;
+}
+
+.van-pricing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subtext{
+  display: block;
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.simple{
+  background-color: #E17654;
+}
+
+.rugged{
+  background-color: #115E59;
+}
+
+.luxury{
+  background-color: #161616;
+}
+
+.van-type-button{
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  width: 50%;
+  padding: 10px;
+}
