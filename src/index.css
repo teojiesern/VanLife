@@ -6,6 +6,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
+  background-color: #FFF7ED;
 }
 
 nav {
@@ -37,18 +38,6 @@ nav {
   padding: 20px 0;
 }
 
-.home-content > a {
-  text-decoration: none;
-  color: white;
-  background-color: #FF8C38;
-  border: none;
-  border-radius: 5px;
-  padding: 10px;
-  font-family: 'Inter', sans-serif;
-  width: 70%;
-  text-align: center;
-}
-
 .home-content > p{
   margin-bottom: 3%;
 }
@@ -69,7 +58,6 @@ nav {
 
 .about-content{
   padding: 30px 15px;
-  background-color: #FFF7ED;
 }
 
 .explore-container{
@@ -107,8 +95,13 @@ nav > h1{
 
 .vanlife{
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.5rem;
   color: black;
+}
+
+.van-tile a{
+    color: #161616;
+    text-decoration: none; 
 }
 
 .vans-container{
@@ -117,7 +110,6 @@ nav > h1{
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   gap: 1rem;
-  background-color: #FFF7ED;
 }
 
 .van-img{
@@ -152,10 +144,13 @@ nav > h1{
 }
 
 .subtext{
-  display: block;
   font-size: 10px;
   padding: 0;
   margin: 0;
+}
+
+.block{
+  display: block;
 }
 
 .simple{
@@ -176,4 +171,21 @@ nav > h1{
   border-radius: 5px;
   width: 50%;
   padding: 10px;
+}
+
+.van-detail{
+  padding: 1rem;
+}
+
+.linkbutton{
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: #FF8C38;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  width: 100%;
 }
