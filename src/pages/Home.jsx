@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Home(){
     return (
@@ -9,11 +10,8 @@ export default function Home(){
                     <p>
                         Add adventure to your life by joining the #vanlife movement. Rent the perfect van to make your perfect road trip.
                     </p>
-                    <button>Find your van</button>
+                    <Link to="/vans">Find your van</Link>
                 </div>
-            </div>
-            <div className="home-footer">
-                <p>Ⓒ 2022 #VANLIFE</p>
             </div>
         </div>
     )

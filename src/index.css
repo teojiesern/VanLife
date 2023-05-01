@@ -37,7 +37,8 @@ nav {
   padding: 20px 0;
 }
 
-.home-content > button {
+.home-content > a {
+  text-decoration: none;
   color: white;
   background-color: #FF8C38;
   border: none;
@@ -45,6 +46,7 @@ nav {
   padding: 10px;
   font-family: 'Inter', sans-serif;
   width: 70%;
+  text-align: center;
 }
 
 .home-content > p{
@@ -74,14 +76,16 @@ nav {
   background-color: #FFCC8D;
   padding: 20px;
   border-radius: 5px;
+  height: 25vh;
 }
 
-.explore-container > button{
+.explore-container > a{
+  display: inline-block;
+  text-decoration: none;
   margin-top: 20px;
   background-color: #161616;
   color: white;
   padding: 10px;
-  border: none;
   border-radius: 5px;
   font-weight: 700;
 }
