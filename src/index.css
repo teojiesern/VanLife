@@ -189,3 +189,30 @@ nav > h1{
   text-align: center;
   width: 100%;
 }
+
+.backButton{
+  text-decoration: none;
+  color: black;
+}
+
+.backButton span{
+  text-decoration: underline;
+}
+
+.listed-van{
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  align-items: center;
+}
+
+.listed-van img{
+  width: 30%;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.vanName{
+  font-size: 1.5rem;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import "../server"
+import "../../server"
 import { Link } from "react-router-dom";
 
 export default function Vans(){
