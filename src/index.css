@@ -205,6 +205,8 @@ nav > h1{
   padding: 20px;
   background-color: white;
   align-items: center;
+  text-decoration: none;
+  color: black;
 }
 
 .listed-van img{
@@ -215,4 +217,28 @@ nav > h1{
 
 .vanName{
   font-size: 1.5rem;
+}
+
+.hostVanDetailContainer{
+  background-color: white;
+  margin: 20px;
+  padding: 15px;
+}
+
+.vanDetailed{
+  display: flex;
+}
+
+.hostVanDetailImage{
+  width: 40%;
+  border-radius: 0;
+}
+
+.nav-link-no-padding{
+  padding: 0;
+  margin-right: 10px;
+}
+
+.detailVanContainer{
+  margin: 3rem .1rem 2rem .1rem;
 }

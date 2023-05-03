@@ -36,7 +36,7 @@ export default function HostLayout(){
                 >Reviews
                 </NavLink>
             </div>
-            <Outlet />
+            <Outlet/>
         </div>
     )
 }

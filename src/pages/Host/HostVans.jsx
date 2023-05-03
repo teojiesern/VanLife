@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink, useOutletContext } from "react-router-dom";
 
 export function HostVans(){
     const [vans, setVans] = React.useState([])
@@ -8,15 +9,16 @@ export function HostVans(){
         .then(data => setVans(data.vans))
     },[])
 
+
     const vansList = vans.map(van => {
         return (
-            <div key={van.id} className="listed-van">
+            <NavLink to={van.id} key={van.id} className="listed-van">
                 <img src={van.imageUrl} />
                 <div>
                     <h1 className="no-margin vanName">{van.name}</h1>
                     <p className="no-margin">${van.price}/day</p>
                 </div>
-            </div>
+            </NavLink>
         )
     })
     return (
