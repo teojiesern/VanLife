@@ -44,23 +44,23 @@ export function HostVanInfo(){
                     </div>
                 </div>
 
-                <div>
+                <div className="margin">
                     <NavLink 
                         to="." 
                         end
-                        className="nav-link nav-link-no-padding" 
+                        className="nav-link nav-link-updated-style" 
                         style={({isActive}) => isActive ? activeStyle : null}
                     >Details
                     </NavLink>
                     <NavLink 
                         to="pricing" 
-                        className="nav-link nav-link-no-padding" 
+                        className="nav-link nav-link-updated-style" 
                         style={({isActive}) => isActive ? activeStyle : null}
                     >Pricing
                     </NavLink>
                     <NavLink 
                         to="photos" 
-                        className="nav-link nav-link-no-padding" 
+                        className="nav-link nav-link-updated-style" 
                         style={({isActive}) => isActive ? activeStyle : null}
                     >Photos
                     </NavLink>

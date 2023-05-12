@@ -112,6 +112,29 @@ nav > h1{
   gap: 1rem;
 }
 
+
+.filters{
+  padding: 0 10%;
+}
+
+.filter-btn{
+  height: 2.5rem;
+  margin-right: .7rem;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  border: none;
+  background-color: #FFEAD0;
+  color: black;
+  text-shadow: 1px white;
+}
+
+.clearFilter{
+  border: none;
+  background-color: transparent;
+  color: black;
+  text-decoration: underline;
+}
+
 .van-img{
   width: 100%;
   border-radius: 10px;
@@ -234,9 +257,13 @@ nav > h1{
   border-radius: 0;
 }
 
-.nav-link-no-padding{
-  padding: 0;
+.nav-link-updated-style{
+  padding: 0px;
   margin-right: 10px;
+}
+
+.margin{
+  margin: 25px 0;
 }
 
 .detailVanContainer{
