@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, useParams, useLocation } from "react-router-dom";
-import "../../server"
 
 export default function VanDetail(){
     const params = useParams()
